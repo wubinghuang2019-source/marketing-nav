@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "name": "营销导航网",
+    "description": "营销人必备工具导航",
+    "version": "1.0",
+    "updatedAt": "2026-03-24"
+  },
+  "categories": [
+    {
+      "id": "hot",
+      "name": "🔥 常用推荐",
+      "icon": "⭐",
+      "color": "#FF6B6B",
+      "sites": [
+        {
+          "name": "小红书创作服务平台",
+          "url": "https://creator.xiaohongshu.com/",
+          "desc": "小红书笔记发布、数据查看",
+          "tags": ["社交媒体", "日常使用"]
+        },
+        {
+          "name": "微信公众号后台",
+          "url": "https://mp.weixin.qq.com/",
+          "desc": "公众号内容管理、群发",
+          "tags": ["社交媒体", "日常使用"]
+        },
+        {
+          "name": "巨量引擎",
+          "url": "https://e.oceanengine.com/",
+          "desc": "抖音/头条广告投放平台",
+          "tags": ["广告投放", "日常使用"]
+        }
+      ]
+    },
+    {
+      "id": "internal",
+      "name": "📱 内部工具",
+      "icon": "🏢",
+      "color": "#4ECDC4",
+      "sites": [
+        {
+          "name": "数据看板",
+          "url": "#",
+          "desc": "公司内部数据系统",
+          "tags": ["数据", "内部"]
+        },
+        {
+          "name": "CRM 系统",
+          "url": "#",
+          "desc": "客户关系管理",
+          "tags": ["用户", "内部"]
+        },
+        {
+          "name": "内容管理系统",
+          "url": "#",
+          "desc": "内容素材库",
+          "tags": ["内容", "内部"]
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "name": "🌐 社交媒体",
+      "icon": "📱",
+      "color": "#95E1D3",
+      "sites": [
+        {
+          "name": "抖音创作服务平台",
+          "url": "https://creator.douyin.com/",
+          "desc": "抖音视频发布、数据查看",
+          "tags": ["短视频", "平台官方"]
+        },
+        {
+          "name": "B 站创作中心",
+          "url": "https://member.bilibili.com/",
+          "desc": "B 站视频管理",
+          "tags": ["短视频", "平台官方"]
+        },
+        {
+          "name": "微博创作者平台",
+          "url": "https://weibo.com/",
+          "desc": "微博内容发布",
+          "tags": ["社交媒体", "平台官方"]
+        },
+        {
+          "name": "知乎创作中心",
+          "url": "https://www.zhihu.com/creator",
+          "desc": "知乎内容管理",
+          "tags": ["内容社区", "平台官方"]
+        },
+        {
+          "name": "快手创作者平台",
+          "url": "https://cp.kuaishou.com/",
+          "desc": "快手视频发布",
+          "tags": ["短视频", "平台官方"]
+        }
+      ]
+    },
+    {
+      "id": "ads",
+      "name": "📢 广告投放",
+      "icon": "💰",
+      "color": "#F38181",
+      "sites": [
+        {
+          "name": "腾讯广告",
+          "url": "https://e.qq.com/",
+          "desc": "微信朋友圈、公众号广告",
+          "tags": ["广告", "平台官方"]
+        },
+        {
+          "name": "阿里妈妈",
+          "url": "https://www.alimama.com/",
+          "desc": "淘宝/天猫推广",
+          "tags": ["广告", "平台官方"]
+        },
+        {
+          "name": "百度营销",
+          "url": "https://yingxiao.baidu.com/",
+          "desc": "百度搜索广告",
+          "tags": ["广告", "平台官方"]
+        },
+        {
+          "name": "穿山甲",
+          "url": "https://www.pangle.cn/",
+          "desc": "字节跳动广告联盟",
+          "tags": ["广告", "平台官方"]
+        },
+        {
+          "name": "广点通",
+          "url": "https://e.qq.com/",
+          "desc": "腾讯社交广告",
+          "tags": ["广告", "平台官方"]
+        }
+      ]
+    },
+    {
+      "id": "analytics",
+      "name": "📊 数据分析",
+      "icon": "📈",
+      "color": "#AA96DA",
+      "sites": [
+        {
+          "name": "百度统计",
+          "url": "https://tongji.baidu.com/",
+          "desc": "网站流量分析",
+          "tags": ["数据", "平台官方"]
+        },
+        {
+          "name": "友盟+",
+          "url": "https://www.umeng.com/",
+          "desc": "移动应用统计",
+          "tags": ["数据", "第三方"]
+        },
+        {
+          "name": "神策数据",
+          "url": "https://www.sensorsdata.cn/",
+          "desc": "用户行为分析",
+          "tags": ["数据", "第三方"]
+        },
+        {
+          "name": "GrowingIO",
+          "url": "https://www.growingio.com/",
+          "desc": "数据分析平台",
+          "tags": ["数据", "第三方"]
+        },
+        {
+          "name": "蝉妈妈",
+          "url": "https://www.chanmama.com/",
+          "desc": "抖音数据分析",
+          "tags": ["数据", "第三方"]
+        },
+        {
+          "name": "飞瓜数据",
+          "url": "https://www.feigua.cn/",
+          "desc": "多平台数据分析",
+          "tags": ["数据", "第三方"]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "🤖 AI 工具",
+      "icon": "🤖",
+      "color": "#FCBAD3",
+      "sites": [
+        {
+          "name": "通义千问",
+          "url": "https://tongyi.aliyun.com/",
+          "desc": "阿里 AI 助手，文案生成",
+          "tags": ["AI", "文案"]
+        },
+        {
+          "name": "文心一言",
+          "url": "https://yiyan.baidu.com/",
+          "desc": "百度 AI 助手",
+          "tags": ["AI", "文案"]
+        },
+        {
+          "name": "Kimi",
+          "url": "https://kimi.moonshot.cn/",
+          "desc": "月之暗面 AI 助手",
+          "tags": ["AI", "文案"]
+        },
+        {
+          "name": "智谱清言",
+          "url": "https://chatglm.cn/",
+          "desc": "智谱 AI 助手",
+          "tags": ["AI", "文案"]
+        },
+        {
+          "name": "Midjourney",
+          "url": "https://www.midjourney.com/",
+          "desc": "AI 图片生成",
+          "tags": ["AI", "图片"]
+        },
+        {
+          "name": "Stable Diffusion",
+          "url": "https://stablediffusionweb.com/",
+          "desc": "AI 图片生成",
+          "tags": ["AI", "图片"]
+        },
+        {
+          "name": "Runway",
+          "url": "https://runwayml.com/",
+          "desc": "AI 视频生成",
+          "tags": ["AI", "视频"]
+        },
+        {
+          "name": "剪映",
+          "url": "https://www.capcut.cn/",
+          "desc": "智能视频剪辑",
+          "tags": ["AI", "视频"]
+        },
+        {
+          "name": "Canva 可画",
+          "url": "https://www.canva.cn/",
+          "desc": "AI 设计工具",
+          "tags": ["AI", "设计"]
+        },
+        {
+          "name": "稿定设计",
+          "url": "https://www.gaoding.com/",
+          "desc": "在线设计工具",
+          "tags": ["AI", "设计"]
+        }
+      ]
+    },
+    {
+      "id": "content",
+      "name": "📝 内容创作",
+      "icon": "✏️",
+      "color": "#FFD93D",
+      "sites": [
+        {
+          "name": "石墨文档",
+          "url": "https://shimo.im/",
+          "desc": "在线协作文档",
+          "tags": ["工具", "协作"]
+        },
+        {
+          "name": "腾讯文档",
+          "url": "https://docs.qq.com/",
+          "desc": "在线文档表格",
+          "tags": ["工具", "协作"]
+        },
+        {
+          "name": "语雀",
+          "url": "https://www.yuque.com/",
+          "desc": "知识库管理",
+          "tags": ["工具", "知识管理"]
+        },
+        {
+          "name": "Notion",
+          "url": "https://www.notion.so/",
+          "desc": "全能工作空间",
+          "tags": ["工具", "知识管理"]
+        },
+        {
+          "name": "ProcessOn",
+          "url": "https://www.processon.com/",
+          "desc": "在线流程图",
+          "tags": ["工具", "设计"]
+        },
+        {
+          "name": "创客贴",
+          "url": "https://www.chuangkit.com/",
+          "desc": "在线设计工具",
+          "tags": ["工具", "设计"]
+        },
+        {
+          "name": "Remove.bg",
+          "url": "https://www.remove.bg/",
+          "desc": "AI 抠图工具",
+          "tags": ["工具", "图片"]
+        }
+      ]
+    },
+    {
+      "id": "learning",
+      "name": "📚 学习资源",
+      "icon": "🎓",
+      "color": "#6BCB77",
+      "sites": [
+        {
+          "name": "鸟哥笔记",
+          "url": "https://www.niaogebiji.com/",
+          "desc": "营销运营学习平台",
+          "tags": ["学习", "营销"]
+        },
+        {
+          "name": "人人都是产品经理",
+          "url": "https://www.woshipm.com/",
+          "desc": "产品运营学习",
+          "tags": ["学习", "产品"]
+        },
+        {
+          "name": "梅花网",
+          "url": "https://www.meihua.info/",
+          "desc": "营销案例库",
+          "tags": ["学习", "案例"]
+        },
+        {
+          "name": "SocialBeta",
+          "url": "https://www.socialbeta.com/",
+          "desc": "社交媒体营销资讯",
+          "tags": ["学习", "营销"]
+        },
+        {
+          "name": "AdAge 广告时代",
+          "url": "https://adage.com/",
+          "desc": "全球广告资讯",
+          "tags": ["学习", "资讯"]
+        },
+        {
+          "name": "Morketing",
+          "url": "https://www.morketing.com/",
+          "desc": "营销商业媒体",
+          "tags": ["学习", "资讯"]
+        }
+      ]
+    },
+    {
+      "id": "competitor",
+      "name": "🔍 竞品监测",
+      "icon": "👀",
+      "color": "#FF6B9D",
+      "sites": [
+        {
+          "name": "新榜",
+          "url": "https://www.newrank.cn/",
+          "desc": "内容产业数据平台",
+          "tags": ["数据", "监测"]
+        },
+        {
+          "name": "清博指数",
+          "url": "http://www.gsdata.cn/",
+          "desc": "新媒体大数据",
+          "tags": ["数据", "监测"]
+        },
+        {
+          "name": "千瓜数据",
+          "url": "https://www.qiangua.com/",
+          "desc": "小红书数据分析",
+          "tags": ["数据", "监测"]
+        },
+        {
+          "name": "考古加",
+          "url": "https://www.kaogujia.com/",
+          "desc": "直播数据分析",
+          "tags": ["数据", "监测"]
+        }
+      ]
+    }
+  ]
+}
