@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="zh-CN"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;营销导航网 - 营销人必备工具导航&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>* { margin: 0; padding: 0; box-sizing: border-box; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: linear-gradient(135deg, #a8edea 0%, #fed6e3 50%, #fef9d7 100%);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>min-height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.container { max-width: 1400px; margin: 0 auto; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>header { text-align: center; color: #333; padding: 40px 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>header h1 { font-size: 2.5em; margin-bottom: 10px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.</p>
+<p class="p1">search-box { max-width: 600px; margin: 30px auto; position: relative; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.search-box input {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 15px 50px 15px 25px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 10px 30px rgba(0,0,0,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>outline: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.category-nav { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 30px 0; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.category-btn {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 10px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 14px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: white;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #333;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 4px 15px rgba(0,0,0,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.category-btn.active {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #333;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.sites-grid {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: grid;</p>
+<p class="p1">grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.site-card {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: white;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 5px 20px rgba(0,0,0,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.site-card:hover {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transform: translateY(-5px);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 10px 30px rgba(0,0,0,0.2);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.site-header { display: flex; align-items: center; margin-bottom: 15px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.site-icon {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 40px; height: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #f0f0f0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex; align-items: center; justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 20px; margin-right: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.site-name { font-size: 18px; font-weight: 600; color: #333; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.site-desc { font-size: 14px; color: #666; line-height:</p>
+<p class="p1">1.6; margin-bottom: 15px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.tag {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 4px 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #f5f5f5;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #666;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-right: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>footer {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #666;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: rgba(255,255,255,0.8);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 30px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.wechat-feedback {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 15px 30px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: inline-block;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #333;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h1&gt;🎯 营销导航网&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;营销人必备工具导航 · 持续更新中&lt;/p &gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="search-box"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="text"</p>
+<p class="p1">id="searchInput" placeholder="搜索工具、网站、关键词..." oninput="handleSearch()"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span style="position:absolute;right:20px;top:50%;transform:translateY(-50%);"&gt;🔍&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="category-nav" id="categoryNav"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="sitesContainer"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;💡 有好工具推荐？欢迎反馈&lt;/p &gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="wechat-feedback"&gt;📱 微信：icy810&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p style="margin-top:20px;"&gt;最后更新：&lt;span id="updateDate"&gt;&lt;/span&gt;&lt;/p &gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>let sitesData = null;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>let activeCategory = 'all';</p>
+<p class="p1"><span class="Apple-converted-space">    </span>async function loadData() {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const response = await fetch('sites.json');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>sitesData = await response.json();</p>
+<p class="p1"><span class="Apple-converted-space">      </span>renderCategoryNav();</p>
+<p class="p1"><span class="Apple-converted-space">      </span>renderSites();</p>
+<p class="p1"><span class="Apple-converted-space">      </span>document.getElementById('updateDate').textContent = sitesData.meta.updatedAt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>function</p>
+<p class="p1">renderCategoryNav() {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>document.getElementById('categoryNav').innerHTML =<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="category-btn active" onclick="filterCategory('all')"&gt;全部&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>${sitesData.categories.map(cat =&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;button class="category-btn" onclick="filterCategory('${cat.id}')"&gt;${cat.icon} ${cat.name}&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>).join('')}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>function renderSites(filterText = '') {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const container = document.getElementById('sitesContainer');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (activeCategory === 'all') {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>container.innerHTML = sitesData.categories.map(cat =&gt; renderCategorySection(cat, filterText)).filter(h=&gt;h).join('');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const cat = sitesData.categories.find(c =&gt; c.id === activeCategory);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>if (cat) container.innerHTML = renderCategorySection(cat, filterText);</p>
+<p class="p1">}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>function renderCategorySection(cat, filterText = '') {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>let sites = [...cat.sites];</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (cat.sortBy === 'clicks') sites.sort((a, b) =&gt; (b.clicks || 0) - (a.clicks || 0));</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const filtered = sites.filter(site =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>if (!filterText) return true;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>return (site.name + site.desc + site.tags.join(' ')).toLowerCase().includes(filterText.toLowerCase());</p>
+<p class="p1"><span class="Apple-converted-space">      </span>});</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (filtered.length === 0) return '';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>return<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="category-section" style="margin:40px 0;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h2 style="font-size:24px;color:#333;margin-bottom:20px;"&gt;${cat.icon} ${cat.name}&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="sites-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>${filtered.map(site =&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div class="site-card" onclick="trackClick('${cat.id}','${site.name}')"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="${site.url}"</p>
+<p class="p1">target="_blank" style="text-decoration:none;color:inherit;display:block;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;div class="site-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="site-icon"&gt;🔗&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                      </span>&lt;div class="site-name"&gt;${site.name}&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                      </span>&lt;div style="font-size:12px;color:#999;"&gt;${new URL(site.url!=='#'?site.url:'https://example.com').hostname}&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;div class="site-desc"&gt;${site.desc}&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;div&gt;${site.tags.map(tag =&gt; &lt;span class="tag"&gt;${tag}&lt;/span&gt;).join('')}&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/a &gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>).join('')}</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>function trackClick(categoryId, siteName) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>let clicks = JSON.parse(localStorage.getItem('navClicks') || '{}');</p>
+<p class="p1">const key = ${categoryId}_${siteName};</p>
+<p class="p1"><span class="Apple-converted-space">      </span>clicks[key] = (clicks[key] || 0) + 1;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>localStorage.setItem('navClicks', JSON.stringify(clicks));</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (categoryId === 'hot') renderSites();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>function filterCategory(id) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>activeCategory = id;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>document.querySelectorAll('.category-btn').forEach(btn =&gt; btn.classList.toggle('active', btn.textContent.includes(id)));</p>
+<p class="p1"><span class="Apple-converted-space">      </span>renderSites();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>function handleSearch() {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const text = document.getElementById('searchInput').value;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (text) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('sitesContainer').innerHTML = sitesData.categories.map(cat =&gt; renderCategorySection(cat, text)).filter(h=&gt;h).join('');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>} else renderSites();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>loadData();</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
